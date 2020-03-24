@@ -1,7 +1,7 @@
 import requests
 
 num = input('Номер (79670000000): ')
-lim = int(input('Количество прохолов (рекомендуем значение меньше 4.): '))
+lim = int(input('Количество прохолов: '))
 numplus = '+' + num
 def spam():
 	try:
